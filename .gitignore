@@ -1,0 +1,53 @@
+# IDE settings files specfic per user
+.idea/
+.metadata/
+.classpath
+.project
+.settings/
+*.iml
+*~
+
+# Gradle
+build/
+.gradle/
+# Igonore gradle.properties for the same reason as secure.properties
+gradle.properties
+
+# Gradle
+build/
+.gradle/
+# Igonore gradle.properties for the same reason as secure.properties
+gradle.properties
+
+# Mac OS X files
+.DS_Store
+
+# recommended .gitignore from "https://github.com/github/gitignore.git"
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+*/tmp/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#output
+
+out*
+
+# Android Lint Tool configuration file
+lint.xml
+
+# Ignore password file for Ant signing config so that it is not checked into repo
+secure.properties
